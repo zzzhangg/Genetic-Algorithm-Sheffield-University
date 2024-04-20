@@ -68,4 +68,5 @@ title('Evolution Process')
 best_z = trace(3, end);
 best_y = trace(2, end);
 best_x = trace(1, end);
+best_z = 8*best_y+10*best_x+14-(1.2*(10^-6)+0.6*(10^-6)*best_y+2.16+0.22);
 fprintf(['Best Solution:\nX=', num2str(best_x), '\nY=', num2str(best_y), '\nZ=', num2str(best_z), '\n'])
